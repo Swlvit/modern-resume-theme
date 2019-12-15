@@ -1,0 +1,75 @@
+repository: swlvit/resume-theme
+# favicon: images/favicon.ico
+
+# Personal info
+name: William Orrison 
+title: Network Administrator - Customer Support Specialist
+email: swlvit@gmail.com
+website: www.github.com/swlvit/resume-theme
+
+# Social links
+twitter_username: swlvit  
+github_username:  swlvit
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: chillwildlife
+# linkedin_username: jameswgrant
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile2.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Bill. I have worked numerous job's throughout my life, my passion and expertise are with IT/Networks/Customer Support. Do to all the various jobs I have 
+  worked, I do have many other adaptable skills and work with no problems with adapatable situations/problems. I've worked in teams and by myself for years doing just as 
+  well in either enviornment. Customer Support specalist, just about every job, and every job within the last 15 years has been completely 
+  dependent on customer service. I have always had many friends, from all walks of life, it has always come very naturually to me. Put them all in a room and not everyone
+  always gets along, something that was not as easy to learn..I had always had no problem getting along with just about anyone, while still being as genuine and honest as I can be. I have traveled all over Europe,Asia,America,Mexico
+  I pay good attention to current events, etc. I feel like being able to get along with just about anyone, is especially important dealing with customers who may be frustrated, etc. 
+
+  
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my technical skills with Networks/PC Repair some of my other skills/interests are:
+   -  <i class='fa fa-linux'></i> Linux/FOSS (debian,arch,redhat)  <i class='fa fa-linux'></i>
+   - Android/Mobile Technology/Rasb.Pie/hardware tech
+   - Least skilled but enjoy as hobby/still interested Photoshop/GIMP/Camera's,Graphics Design, Web Dev.
+# Footer
+footer_show_references: true
+
+# Build settings
+theme: modern-resume-theme 
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
